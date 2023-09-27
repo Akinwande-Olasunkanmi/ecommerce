@@ -9,8 +9,9 @@ if (bar) {
 }
 
 if (close) {
-    close.addEventListener('click', () => {
+    close.addEventListener('click', (event) => {
         nav.classList.remove('active');
+        event.preventDefault();
     })
 }
 
@@ -22,10 +23,10 @@ const sr = ScrollReveal({
     reset: true
 })
 
-sr.reveal('.scroll', {origin: 'left', delay: 800});
-sr.reveal('.scroll2', {origin: 'right', delay: 800, interval: 300});
-sr.reveal('.scroll3', {origin: 'top', delay: 600, interval: 300});
-sr.reveal('.scroll4', {origin: 'left', delay: 600, interval: 300});
+sr.reveal('.scroll', {origin: 'left', delay: 500});
+sr.reveal('.scroll2', {origin: 'right', delay: 500, interval: 300});
+sr.reveal('.scroll3', {origin: 'top', delay: 500, interval: 300});
+sr.reveal('.scroll4', {origin: 'left', delay: 500, interval: 300});
 
 
 // var removeCartItem = document.getElementsByClassName('remove');

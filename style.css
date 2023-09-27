@@ -511,7 +511,8 @@ footer .copyright{
 }
 #page-header h2,
 #page-header p{
-    color: #ec544e;
+    color: yellow;
+    text-align: center;
 }
 
 #pagination{
@@ -632,6 +633,7 @@ footer .copyright{
 #page-header.blog-header h2,
 #page-header.blog-header p{
     color: #fff;
+    text-align: center;
 }
 #blog{
     padding: 150px 150px 0 150px;
@@ -695,7 +697,8 @@ footer .copyright{
 }
 #page-header.about-header .scroll h2,
 #page-header.about-header .scroll p{
-    color: #494141;
+    color: #0c0c0c;
+    text-align: center;
 }
 #about-head img{
     width: 50%;
@@ -738,6 +741,7 @@ footer .copyright{
 #page-header.contact-header .scroll h2,
 #page-header.contact-header .scroll p{
     color: #fff;
+    text-align: center;
 }
 
 #contact-details{
