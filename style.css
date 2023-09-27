@@ -151,7 +151,7 @@ body{
     font-size: 14px;
     font-weight: 600;
     padding: 15px 30px;
-    color: #000;
+    color: #fff;
     border-radius: 4px;
     cursor: pointer;
     border: none;
@@ -160,7 +160,7 @@ body{
     background-color: #088178;  
 }
 #hero button:hover{
-    color: #e3e6f3;
+    color: #fcfdff;
     background-color: #0d5853;
 }
 
